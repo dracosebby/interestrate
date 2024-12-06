@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Center aligns all text */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #800080; /* Purple color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a000a0; /* Slightly lighter purple for hover effect */
+}
+
+#result {
+    padding: 10px;
+    background-color: #e7e7e7;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+.subscribe-btn {
+    background-color: #4b0082; /* Deep purple */
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.subscribe-btn:hover {
+    background-color: #6821b4; /* Lighter purple on hover */
+}
